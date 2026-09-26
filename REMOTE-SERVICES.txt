@@ -1,0 +1,15 @@
+REMOTE SERVICES — Zeko QA
+=========================
+
+This file documents every outbound network request performed by Zeko QA's
+own code. The readme.txt "External services" section covers the who/when
+questions; this file is the full statement.
+
+Zeko QA makes no outbound network requests of its own.
+
+The only network I/O in the plugin is the visitor's browser loading the
+Quill editor assets (quill.snow.css / quill.min.js), which are served from
+the local Zeko Core install (plugins/zeko-core/assets/vendor/quill/) — not
+from any CDN — via Zeko_Core_Assets::enqueue_quill(). No data is sent.
+
+No other outbound HTTP requests are made by Zeko QA.

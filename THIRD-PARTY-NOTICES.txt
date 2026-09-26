@@ -1,0 +1,28 @@
+THIRD-PARTY NOTICES — Zeko QA
+=============================
+
+The rich-text editors on the ask and answer forms are built on Quill Editor
+1.3.7. The bundled Quill files are NOT stored inside this plugin: Zeko QA calls
+Zeko_Core_Assets::enqueue_quill() (see includes/public/class-zeko-qa-public.php
+lines 78 and 103) and the asset files live in the Zeko Core package:
+
+  plugins/zeko-core/assets/vendor/quill/quill.min.js
+  plugins/zeko-core/assets/vendor/quill/quill.snow.css
+
+License: BSD 3-Clause (BSD-3-Clause). Bundled header (verbatim):
+
+  Quill Editor v1.3.7
+  https://quilljs.com/
+  Copyright (c) 2014, Jason Chen
+  Copyright (c) 2013, salesforce.com
+
+The full BSD 3-Clause license text, attribution notes, and GPL-compatibility
+verdict are in plugins/zeko-core/THIRD-PARTY-NOTICES.txt (this package links
+to that copy and does not re-distribute Quill itself). BSD-3-Clause is
+GPL-2.0-or-later-compatible for distribution of a combined work.
+
+Everything else shipped by Zeko QA (includes/**, templates/**, assets/js/*,
+assets/css/*, languages/*, screenshot-1.png) is original Zeko code/asset work
+and is licensed GPL-2.0-or-later (see the plugin header). Zeko QA bundles no
+fonts, icon libraries, images (other than its screenshot), or other third-party
+assets, and it performs no outbound HTTP requests of its own.

@@ -1,0 +1,26 @@
+.zeko-qa-admin-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.zeko-qa-admin-card h2 {
+    font-size: 16px;
+    margin: 0 0 12px;
+}
+
+.zeko-qa-demo-status {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.zeko-qa-demo-status.success {
+    color: #46b450;
+}
+
+.zeko-qa-demo-status.error {
+    color: #dc3232;
+}

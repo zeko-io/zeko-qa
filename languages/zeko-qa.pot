@@ -1,0 +1,1560 @@
+# Copyright (C) 2026 Zeko Team
+# This file is distributed under the GNU General Public License v2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: zeko-qa 1.0.0\n"
+"Report-Msgid-Bugs-To: https://zeko.io\n"
+"POT-Creation-Date: 2026-09-25 08:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Zeko Team\n"
+"X-Domain: zeko-qa\n"
+"X-Generator: zeko make-pot\n"
+
+#. translators: 1: user name. 2: answer title
+#: includes/class-zeko-qa-ecosystem.php:320
+#, php-format
+msgid "%1$s answered \"%2$s\""
+msgstr ""
+
+#. translators: 1: user name. 2: question title
+#: includes/class-zeko-qa-ecosystem.php:289
+#, php-format
+msgid "%1$s asked a question about \"%2$s\""
+msgstr ""
+
+#. translators: 1: user display name. 2: site name
+#: templates/qa-dashboard.php:39
+#, php-format
+msgid "%1$s's Q&A activity and reputation on %2$s."
+msgstr ""
+
+#. translators: %d: number of answers
+#: templates/single-question.php:211
+#, php-format
+msgid "%d Answer"
+msgid_plural "%d Answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of followers
+#: templates/archive-topics.php:39 templates/single-topic.php:36
+#, php-format
+msgid "%d followers"
+msgstr ""
+
+#. translators: %d: number of questions
+#: templates/archive-topics.php:37 templates/single-tag.php:32
+#: templates/single-topic.php:34
+#, php-format
+msgid "%d questions"
+msgstr ""
+
+#. translators: %d: number of reputation points
+#: templates/qa-dashboard.php:51
+#, php-format
+msgid "%d reputation points"
+msgstr ""
+
+#. translators: %s: number of comments
+#: templates/single-question.php:147 templates/single-question.php:278
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: author name, 2: question title
+#: includes/class-zeko-qa-emails.php:204
+#, php-format
+msgid ""
+"<strong>%1$s</strong> posted an answer on your question <strong>%2$s</"
+"strong>."
+msgstr ""
+
+#: templates/single-question.php:268
+msgid "Accept"
+msgstr ""
+
+#: templates/single-question.php:267
+msgid "Accept this answer"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:203
+#: includes/privacy/class-zeko-qa-privacy.php:127 templates/user-profile.php:78
+msgid "Accepted"
+msgstr ""
+
+#: templates/single-question.php:228
+msgid "Accepted Answer"
+msgstr ""
+
+#: templates/user-profile.php:170
+msgid "Accepted answer"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:276
+msgid "Action"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:311
+msgid "Action completed."
+msgstr ""
+
+#: templates/admin/demo-data.php:22 templates/admin/moderation.php:33
+msgid "Actions"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:279
+msgid "Actor ID"
+msgstr ""
+
+#: templates/single-question.php:166 templates/single-question.php:297
+msgid "Add a comment..."
+msgstr ""
+
+#: templates/ask-form.php:148
+msgid "Add up to 5 tags to help others find your question."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:802
+msgid "All notifications marked as read."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:179
+msgid "Amount"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:284
+#: includes/class-zeko-qa-ecosystem.php:315 templates/single-question.php:57
+msgid "Anonymous"
+msgstr ""
+
+#: templates/ask-form.php:169
+msgid "Anonymous - Hide my name"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:123
+msgid "Answer"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:482
+msgid "Answer accepted."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:224
+msgid "Answer is too long (max 50,000 characters)."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:219
+msgid "Answer must be at least 10 characters."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:486
+#: includes/class-zeko-qa-rest-api.php:512
+msgid "Answer not found."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:275
+msgid "Answer submitted successfully."
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:199 templates/qa-dashboard.php:60
+#: templates/user-profile.php:70 templates/user-profile.php:144
+msgid "Answers"
+msgstr ""
+
+#: templates/user-profile.php:107
+msgid "Answers accepted"
+msgstr ""
+
+#: templates/admin/moderation.php:73
+msgid "Are you sure you want to delete this content?"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:57
+msgid "Are you sure? This will seed demo data."
+msgstr ""
+
+#: templates/archive-questions.php:37 templates/qa-dashboard.php:31
+msgid "Ask Question"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:149 setup-pages.php:27
+#: templates/admin/settings.php:68 templates/ask-form.php:28
+#: templates/ask-form.php:35 zeko-qa.php:90
+msgid "Ask a Question"
+msgstr ""
+
+#: templates/ask-form.php:36
+msgid "Ask a question and get answers from the community."
+msgstr ""
+
+#: templates/archive-questions.php:160 templates/single-tag.php:41
+#: templates/single-topic.php:52
+msgid "Ask the first question"
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:75
+msgid "Ask. Learn. Share what you know."
+msgstr ""
+
+#: templates/archive-questions.php:186 templates/single-question.php:107
+#: templates/single-tag.php:64 templates/single-topic.php:78
+msgid "Asked by"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:207
+msgid "Awarded at"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:206
+msgid "Badge ID"
+msgstr ""
+
+#: templates/user-profile.php:84
+msgid "Badges"
+msgstr ""
+
+#: templates/single-question.php:192
+msgid "Be specific, cite sources if possible, and explain your reasoning."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:215
+msgid "Bookmark"
+msgstr ""
+
+#: templates/single-question.php:126
+msgid "Bookmark question"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:599
+msgid "Bookmark removed."
+msgstr ""
+
+#: templates/user-profile.php:148
+msgid "Bookmarks"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:176
+msgid "Bounty"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:998
+msgid "Bounty could not be awarded."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:977
+msgid "Bounty not found."
+msgstr ""
+
+#: templates/archive-spaces.php:26
+msgid "Browse community spaces on Zeko."
+msgstr ""
+
+#: templates/archive-questions.php:45
+msgid "Browse questions and answers from the community."
+msgstr ""
+
+#: templates/archive-tags.php:21
+msgid "Browse questions by tag"
+msgstr ""
+
+#: templates/archive-topics.php:21
+msgid "Browse questions by topic"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:91
+msgid "Calculated dynamically from upvotes on your questions and answers."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:726
+msgid "Cannot delete this comment."
+msgstr ""
+
+#: templates/single-question.php:83
+msgid "Categories"
+msgstr ""
+
+#: templates/ask-form.php:118
+msgid "Categories / Topics"
+msgstr ""
+
+#: templates/admin/demo-data.php:26
+msgid "Clear Demo Data"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:137
+#: includes/privacy/class-zeko-qa-privacy.php:141
+msgid "Comment"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:690
+msgid "Comment added."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:730
+msgid "Comment deleted."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:661
+msgid "Comment is too long (max 2,000 characters)."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:111
+#: includes/privacy/class-zeko-qa-privacy.php:126
+#: includes/privacy/class-zeko-qa-privacy.php:154
+msgid "Content"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:444
+msgid "Content is required."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:331
+msgid "Content is too long (max 50,000 characters)."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:326 includes/class-zeko-qa-rest-api.php:328
+msgid "Content must be at least 10 characters."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:331
+msgid ""
+"Could someone provide guidance or a working example? I have tried several "
+"approaches but none seem to work as expected. Any help would be greatly "
+"appreciated."
+msgstr ""
+
+#: templates/archive-spaces.php:35
+msgid "Create Space"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:115
+#: includes/privacy/class-zeko-qa-privacy.php:129
+#: includes/privacy/class-zeko-qa-privacy.php:142
+#: includes/privacy/class-zeko-qa-privacy.php:155
+#: includes/privacy/class-zeko-qa-privacy.php:168
+#: includes/privacy/class-zeko-qa-privacy.php:182
+#: includes/privacy/class-zeko-qa-privacy.php:218
+#: includes/privacy/class-zeko-qa-privacy.php:229
+#: includes/privacy/class-zeko-qa-privacy.php:240
+#: includes/privacy/class-zeko-qa-privacy.php:252
+#: includes/privacy/class-zeko-qa-privacy.php:266
+#: includes/privacy/class-zeko-qa-privacy.php:281
+#: includes/privacy/class-zeko-qa-privacy.php:306
+msgid "Created at"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-dwqa.php:67
+msgid "DW Question & Answer"
+msgstr ""
+
+#: templates/admin/settings.php:47
+msgid "Database"
+msgstr ""
+
+#: templates/admin/settings.php:49
+msgid "Database version:"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:336
+msgid "Database: MySQL 8.x"
+msgstr ""
+
+#: templates/admin/moderation.php:32
+msgid "Date"
+msgstr ""
+
+#: templates/admin/moderation.php:54
+msgid "Delete"
+msgstr ""
+
+#: templates/single-question.php:158 templates/single-question.php:289
+msgid "Delete comment"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:829
+msgid "Deleting source tables…"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:230
+#: includes/admin/class-zeko-qa-admin.php:231
+msgid "Demo Data"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:374
+msgid "Demo data cleared."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:66
+msgid "Demo data generated successfully."
+msgstr ""
+
+#: templates/ask-form.php:82
+msgid "Details"
+msgstr ""
+
+#: templates/admin/settings.php:36
+msgid "Disabled"
+msgstr ""
+
+#: templates/admin/moderation.php:52
+msgid "Dismiss"
+msgstr ""
+
+#: templates/admin/settings.php:57
+msgid "Displays the ask a question form."
+msgstr ""
+
+#: templates/admin/settings.php:56
+msgid "Displays the question archive with filters."
+msgstr ""
+
+#: templates/admin/settings.php:58
+msgid "Displays the user Q&A dashboard."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:59
+msgid "Done!"
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:112
+#: includes/public/class-zeko-qa-public.php:143
+#: templates/archive-questions.php:173 templates/single-question.php:221
+#: templates/single-question.php:250 templates/single-tag.php:51
+#: templates/single-topic.php:65
+msgid "Downvote"
+msgstr ""
+
+#: templates/single-question.php:71
+msgid "Downvote question"
+msgstr ""
+
+#: templates/single-question.php:133
+msgid "Edit"
+msgstr ""
+
+#: templates/single-question.php:132
+msgid "Edit question"
+msgstr ""
+
+#: templates/admin/settings.php:27
+msgid "Email Notifications"
+msgstr ""
+
+#: templates/admin/settings.php:32
+msgid "Enable email notifications"
+msgstr ""
+
+#: templates/admin/settings.php:35
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:98
+msgid "Enter one topic per line. This helps match you with relevant questions."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:334
+msgid "Environment: WordPress 6.x"
+msgstr ""
+
+#: templates/admin/moderation.php:90
+msgid "Error."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:183
+msgid "Expires at"
+msgstr ""
+
+#: templates/archive-questions.php:79
+msgid "Feed"
+msgstr ""
+
+#: templates/admin/settings.php:50
+msgid "Flush Rewrite Rules"
+msgstr ""
+
+#: templates/single-question.php:124 templates/single-topic.php:43
+msgid "Follow"
+msgstr ""
+
+#: templates/single-question.php:124 templates/single-topic.php:43
+msgid "Following"
+msgstr ""
+
+#. translators: %d: number of forums
+#: includes/migrator/class-zeko-migrate-wpforo.php:386
+#, php-format
+msgid "Forums migrated: %d"
+msgstr ""
+
+#: templates/admin/demo-data.php:25
+msgid "Generate Demo Data"
+msgstr ""
+
+#: templates/admin/demo-data.php:19
+msgid "Generate demo data to preview the Q&A system."
+msgstr ""
+
+#: templates/admin/settings.php:63
+msgid "Generated Pages"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:58
+msgid "Generating..."
+msgstr ""
+
+#: templates/ask-form.php:29
+msgid "Get answers from the community."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:332
+msgid "Here are the specifics of my setup:"
+msgstr ""
+
+#. translators: recipient name
+#: includes/class-zeko-qa-emails.php:199 includes/class-zeko-qa-emails.php:260
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:329
+msgid "I am working on a project and encountered the following issue:"
+msgstr ""
+
+#: templates/admin/moderation.php:27
+msgid "ID"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:457
+msgid "Invalid answer."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:720
+msgid "Invalid comment."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:656
+msgid "Invalid item type."
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:149
+msgid "Invalid or expired link."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:536
+#: includes/class-zeko-qa-rest-api.php:892
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:588 includes/class-zeko-qa-ajax.php:618
+msgid "Invalid question."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:285
+#: includes/class-zeko-qa-ajax.php:97 includes/class-zeko-qa-ajax.php:445
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:814 includes/class-zeko-qa-ajax.php:853
+msgid "Invalid space."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:564
+msgid "Invalid topic."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:139
+#: includes/privacy/class-zeko-qa-privacy.php:152
+#: includes/privacy/class-zeko-qa-privacy.php:166
+#: includes/privacy/class-zeko-qa-privacy.php:302
+#: templates/admin/moderation.php:30
+msgid "Item ID"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:651
+msgid "Item ID and content are required."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:411
+msgid "Item ID and reason are required."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:107 includes/class-zeko-qa-ajax.php:673
+msgid "Item not found."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:140
+#: includes/privacy/class-zeko-qa-privacy.php:153
+#: includes/privacy/class-zeko-qa-privacy.php:167
+#: includes/privacy/class-zeko-qa-privacy.php:303
+msgid "Item type"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-jetonomy.php:83
+msgid "Jetonomy"
+msgstr ""
+
+#: templates/single-space.php:43
+msgid "Join Space"
+msgstr ""
+
+#: templates/archive-spaces.php:33
+msgid "Join communities to share and discover knowledge."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:838
+msgid "Joined space."
+msgstr ""
+
+#: templates/single-space.php:43
+msgid "Leave Space"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:860
+msgid "Left space."
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:692
+msgid "Loading..."
+msgstr ""
+
+#: templates/admin/settings.php:24
+msgid "Manage your Q&A plugin settings here."
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:689
+msgid "Mark all read"
+msgstr ""
+
+#. translators: %s: date the member joined
+#: templates/user-profile.php:58
+#, php-format
+msgid "Member since %s"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:920
+msgid "Minimum bounty is 5 reputation."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:238
+#: includes/admin/class-zeko-qa-admin.php:239
+msgid "Moderation"
+msgstr ""
+
+#: templates/qa-dashboard.php:90
+msgid "My Answers"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:209
+msgid "My Badges"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:128
+#: includes/class-zeko-qa-ecosystem.php:153 templates/qa-dashboard.php:30
+#: templates/qa-dashboard.php:38
+msgid "My Q&A"
+msgstr ""
+
+#: templates/qa-dashboard.php:28
+msgid "My Q&A Dashboard"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:223 templates/qa-dashboard.php:70
+msgid "My Questions"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:813
+msgid "Name is required."
+msgstr ""
+
+#: templates/admin/moderation.php:94
+msgid "Network error."
+msgstr ""
+
+#: templates/archive-questions.php:137
+msgid "Newest"
+msgstr ""
+
+#: templates/user-profile.php:156
+msgid "No answers yet."
+msgstr ""
+
+#: templates/user-profile.php:158
+msgid "No bookmarks yet."
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:240 templates/qa-dashboard.php:116
+msgid "No new notifications."
+msgstr ""
+
+#: templates/single-space.php:50
+msgid "No posts in this space yet."
+msgstr ""
+
+#: templates/archive-questions.php:159
+msgid "No questions found."
+msgstr ""
+
+#: templates/single-topic.php:51
+msgid "No questions in this topic yet."
+msgstr ""
+
+#: templates/single-tag.php:40
+msgid "No questions with this tag yet."
+msgstr ""
+
+#: templates/user-profile.php:160
+msgid "No questions yet."
+msgstr ""
+
+#: templates/archive-spaces.php:41
+msgid "No spaces yet. Be the first to create one!"
+msgstr ""
+
+#: templates/archive-tags.php:26
+msgid "No tags found."
+msgstr ""
+
+#: templates/archive-topics.php:26
+msgid "No topics found."
+msgstr ""
+
+#: templates/admin/settings.php:78
+msgid "Not created"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:939
+msgid "Not enough reputation."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:274
+msgid "Notification"
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:680
+#: includes/public/class-zeko-qa-public.php:688 templates/qa-dashboard.php:64
+msgid "Notifications"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:569
+msgid "Now following this topic."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:277
+msgid "Object ID"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:278
+msgid "Object type"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:980
+msgid "Only the bounty owner can award it."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:929
+msgid "Only the question author can set a bounty."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-demo-generator.php:335
+msgid "PHP Version: 8.x"
+msgstr ""
+
+#: templates/admin/moderation.php:22
+msgid "Pending reports."
+msgstr ""
+
+#. translators: %s: login URL
+#: templates/single-question.php:205
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to answer this question."
+msgstr ""
+
+#. translators: %s: login URL
+#: templates/ask-form.php:15
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to ask a question."
+msgstr ""
+
+#. translators: %s: login URL
+#: templates/qa-dashboard.php:15
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to view your Q&A dashboard."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:285
+msgid "Please login to answer."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:300 includes/class-zeko-qa-ajax.php:396
+msgid "Please login to ask a question."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:707
+msgid "Please login to comment."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:431
+msgid "Please login to report."
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:114
+#: includes/public/class-zeko-qa-public.php:145
+msgid "Please login to vote"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:200
+msgid "Please login to vote."
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:176
+msgid "Please login."
+msgstr ""
+
+#: templates/admin/settings.php:48
+msgid "Plugin version:"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:262
+msgid "Points"
+msgstr ""
+
+#: templates/single-question.php:167 templates/single-question.php:298
+msgid "Post"
+msgstr ""
+
+#: templates/ask-form.php:177
+msgid "Post Question"
+msgstr ""
+
+#: templates/ask-form.php:178
+msgid "Posting..."
+msgstr ""
+
+#. translators: %d: number of posts
+#: includes/migrator/class-zeko-migrate-wpforo.php:632
+#, php-format
+msgid "Posts migrated: %d"
+msgstr ""
+
+#. translators: %d: number of profiles
+#: includes/migrator/class-zeko-migrate-wpforo.php:821
+#, php-format
+msgid "Profiles migrated: %d"
+msgstr ""
+
+#: templates/ask-form.php:165
+msgid "Public - Everyone can see"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:64
+#: includes/class-zeko-qa-ecosystem.php:140
+#: includes/class-zeko-qa-ecosystem.php:163
+msgid "Q&A"
+msgstr ""
+
+#: setup-pages.php:31 templates/admin/settings.php:69 zeko-qa.php:94
+msgid "Q&A Dashboard"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:108
+msgid "Question"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:125
+#: includes/privacy/class-zeko-qa-privacy.php:178
+#: includes/privacy/class-zeko-qa-privacy.php:217
+#: includes/privacy/class-zeko-qa-privacy.php:239
+msgid "Question ID"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:214
+msgid "Question ID and content are required."
+msgstr ""
+
+#: templates/ask-form.php:57
+msgid "Question Title"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:599
+msgid "Question bookmarked."
+msgstr ""
+
+#: templates/archive-questions.php:59
+msgid "Question filters"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:237
+msgid "Question follower"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:230 includes/class-zeko-qa-ajax.php:594
+#: includes/class-zeko-qa-ajax.php:624 includes/class-zeko-qa-rest-api.php:304
+#: includes/class-zeko-qa-rest-api.php:376
+#: includes/class-zeko-qa-rest-api.php:406
+#: includes/class-zeko-qa-rest-api.php:426
+#: includes/class-zeko-qa-rest-api.php:449
+#: includes/class-zeko-qa-rest-api.php:925
+msgid "Question not found."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:386
+msgid "Question posted successfully."
+msgstr ""
+
+#. translators: %s: question title
+#: templates/single-question.php:64
+#, php-format
+msgid "Question: %s"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:145
+#: includes/class-zeko-qa-ecosystem.php:195 setup-pages.php:23
+#: templates/admin/settings.php:67 templates/archive-questions.php:35
+#: templates/archive-questions.php:44 templates/qa-dashboard.php:56
+#: templates/user-profile.php:66 templates/user-profile.php:141 zeko-qa.php:86
+msgid "Questions"
+msgstr ""
+
+#: templates/archive-questions.php:33
+msgid "Questions archive"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:280
+msgid "Read"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:263
+#: includes/privacy/class-zeko-qa-privacy.php:304
+#: templates/admin/moderation.php:31
+msgid "Reason"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:238 templates/qa-dashboard.php:114
+msgid "Recent Notifications"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:264
+msgid "Reference ID"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:265
+msgid "Reference type"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:300
+#: templates/single-question.php:137
+msgid "Report"
+msgstr ""
+
+#: templates/single-question.php:136
+msgid "Report question"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:424
+msgid "Report submitted. Thank you."
+msgstr ""
+
+#: templates/admin/moderation.php:28
+msgid "Reporter"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:191 templates/qa-dashboard.php:52
+#: templates/user-profile.php:74
+msgid "Reputation"
+msgstr ""
+
+#: templates/user-profile.php:101
+msgid "Reputation Breakdown"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:88
+msgid "Reputation Score"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:260
+msgid "Reputation entry"
+msgstr ""
+
+#: templates/admin/moderation.php:53
+msgid "Resolve"
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:158
+msgid "Return to site"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:150
+msgid "Revision"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:388
+msgid "Rewrite rules flushed."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:251
+msgid "Role"
+msgstr ""
+
+#: templates/single-question.php:128
+msgid "Save"
+msgstr ""
+
+#: templates/admin/settings.php:42
+msgid "Save Settings"
+msgstr ""
+
+#: templates/single-question.php:128
+msgid "Saved"
+msgstr ""
+
+#: templates/archive-questions.php:152
+msgid "Search"
+msgstr ""
+
+#: templates/archive-questions.php:141 templates/archive-questions.php:149
+msgid "Search questions"
+msgstr ""
+
+#: templates/archive-questions.php:147
+msgid "Search questions..."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:276
+#: includes/admin/class-zeko-qa-admin.php:322
+#: includes/admin/class-zeko-qa-admin.php:347
+#: includes/admin/class-zeko-qa-admin.php:385
+#: includes/class-zeko-qa-ajax.php:69 includes/class-zeko-qa-ajax.php:294
+msgid "Security check failed"
+msgstr ""
+
+#: templates/ask-form.php:128
+msgid "Select all categories that apply to your question."
+msgstr ""
+
+#: templates/admin/settings.php:38
+msgid ""
+"Send email notifications when an answer is posted on a question or when an "
+"answer is accepted."
+msgstr ""
+
+#: templates/admin/settings.php:18
+msgid "Settings saved."
+msgstr ""
+
+#: templates/admin/settings.php:54
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:746
+msgid "Someone"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:165
+#: includes/privacy/class-zeko-qa-privacy.php:250
+msgid "Space ID"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:248
+msgid "Space member"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:820 includes/class-zeko-qa-rest-api.php:777
+#: includes/class-zeko-qa-rest-api.php:786
+#: includes/class-zeko-qa-rest-api.php:856
+msgid "Space not found."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:163
+msgid "Space post"
+msgstr ""
+
+#: templates/archive-spaces.php:25 templates/archive-spaces.php:32
+msgid "Spaces"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:338
+msgid "Starting forum migration…"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:542
+msgid "Starting post migration…"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:737
+msgid "Starting profile migration…"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:395
+msgid "Starting topic migration…"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:643
+msgid "Starting vote migration…"
+msgstr ""
+
+#: templates/qa-dashboard.php:49
+msgid "Statistics"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:114
+#: includes/privacy/class-zeko-qa-privacy.php:180
+#: includes/privacy/class-zeko-qa-privacy.php:305
+msgid "Status"
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:113
+#: includes/public/class-zeko-qa-public.php:144
+#: templates/single-question.php:196
+msgid "Submit Answer"
+msgstr ""
+
+#: templates/single-question.php:197
+msgid "Submitting..."
+msgstr ""
+
+#: templates/ask-form.php:73
+msgid "Summarize your problem in one sentence."
+msgstr ""
+
+#: templates/archive-tags.php:20 templates/ask-form.php:136
+#: templates/single-question.php:93
+msgid "Tags"
+msgstr ""
+
+#: templates/ask-form.php:108
+msgid "The more detail you provide, the better answers you will receive."
+msgstr ""
+
+#. translators: asker name
+#: includes/class-zeko-qa-emails.php:272
+#, php-format
+msgid ""
+"The question author <strong>%s</strong> marked your answer as the accepted "
+"solution."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:983
+msgid "This bounty is no longer open."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:934
+msgid "This question already has an open bounty."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:826 includes/class-zeko-qa-rest-api.php:859
+msgid "This space is by invitation only."
+msgstr ""
+
+#: templates/admin/demo-data.php:23
+msgid "This will generate 5 topics, 15 questions, 30 answers, and mock votes."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:110
+msgid "Title"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:311 includes/class-zeko-qa-rest-api.php:320
+msgid "Title and content are required."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:321
+msgid "Title is too long (max 200 characters)."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:324
+msgid "Title must be 10-200 characters."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:316
+msgid "Title must be at least 10 characters."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:531
+msgid "Too many requests. Please slow down."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:228
+msgid "Topic ID"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:226
+msgid "Topic follower"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:157 templates/archive-topics.php:20
+msgid "Topics"
+msgstr ""
+
+#. translators: %d: number of topics
+#: includes/migrator/class-zeko-migrate-wpforo.php:502
+#, php-format
+msgid "Topics migrated: %d"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:95 templates/user-profile.php:126
+msgid "Topics of Expertise"
+msgstr ""
+
+#: templates/archive-questions.php:99
+msgid "Trending"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:475
+#: templates/admin/moderation.php:29
+msgid "Type"
+msgstr ""
+
+#: templates/archive-questions.php:118
+msgid "Unanswered"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:273
+#: includes/admin/class-zeko-qa-admin.php:319
+#: includes/admin/class-zeko-qa-admin.php:344
+#: includes/admin/class-zeko-qa-admin.php:382 setup-pages.php:17
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:569
+msgid "Unfollowed this topic."
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:308
+msgid "Unknown action."
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:216 includes/class-zeko-qa-emails.php:282
+msgid "Unsubscribe from email notifications"
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:160
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/public/class-zeko-qa-public.php:111
+#: includes/public/class-zeko-qa-public.php:142
+#: templates/archive-questions.php:169 templates/single-question.php:217
+#: templates/single-question.php:246 templates/single-tag.php:47
+#: templates/single-topic.php:61
+msgid "Upvote"
+msgstr ""
+
+#: templates/single-question.php:67
+msgid "Upvote question"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:113
+#: includes/privacy/class-zeko-qa-privacy.php:128
+msgid "Upvotes"
+msgstr ""
+
+#: templates/user-profile.php:105
+msgid "Upvotes received"
+msgstr ""
+
+#: templates/user-profile.php:106
+msgid "Upvotes removed"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:204
+msgid "User badge"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:663
+msgid "User not found."
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:213
+msgid "View Answer"
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:279
+msgid "View Your Answer"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:112
+msgid "Views"
+msgstr ""
+
+#: templates/ask-form.php:161
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:96
+msgid "Visit site"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:127
+msgid "Vote changed."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:138
+msgid "Vote recorded."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:116
+msgid "Vote removed."
+msgstr ""
+
+#. translators: %d: number of votes
+#: includes/migrator/class-zeko-migrate-wpforo.php:728
+#, php-format
+msgid "Votes migrated: %d"
+msgstr ""
+
+#: templates/archive-questions.php:168 templates/single-question.php:66
+#: templates/single-question.php:216 templates/single-question.php:245
+#: templates/single-tag.php:46 templates/single-topic.php:60
+msgid "Voting"
+msgstr ""
+
+#: templates/ask-form.php:66
+msgid "What is your question? Be specific."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:181
+msgid "Winner ID"
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:994
+msgid "Winner must have answered the question."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:972
+msgid "Winner user ID is required."
+msgstr ""
+
+#: templates/single-question.php:180
+msgid "Write your answer"
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:832 includes/class-zeko-qa-rest-api.php:863
+msgid "You are already a member."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:629
+msgid "You are now following this question."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:451
+msgid "You cannot accept this answer."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:516
+msgid "You cannot delete this answer."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:410
+msgid "You cannot delete this question."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:490
+msgid "You cannot edit this answer."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:380
+msgid "You cannot edit this question."
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:156
+msgid "You have been unsubscribed."
+msgstr ""
+
+#: templates/qa-dashboard.php:92
+msgid "You have not answered any questions yet."
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:225 templates/qa-dashboard.php:72
+msgid "You have not asked any questions yet."
+msgstr ""
+
+#: includes/class-zeko-qa-rest-api.php:896
+msgid "You must be a member to post."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:79
+msgid "You must be logged in to perform this action."
+msgstr ""
+
+#: includes/class-zeko-qa-ajax.php:629
+msgid "You stopped following this question."
+msgstr ""
+
+#: includes/class-zeko-qa-emails.php:157
+msgid "You will no longer receive email notifications from Q&A."
+msgstr ""
+
+#: templates/single-question.php:177
+msgid "Your Answer"
+msgstr ""
+
+#. translators: question title
+#: includes/class-zeko-qa-emails.php:265
+#, php-format
+msgid "Your answer on <strong>%s</strong> has been accepted!"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:608
+msgid ""
+"Your questions, answers, comments and revisions remain visible as community "
+"content with their author attribution removed."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:56
+#: includes/privacy/class-zeko-qa-privacy.php:69
+msgid "Zeko Q&A data"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:607
+msgid ""
+"Zeko Q&A participation rows (reputation log, badges, bookmarks, topic and "
+"question follows, space memberships and notifications) were erased."
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:121
+msgid "Zeko Q&A — Answers"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:202
+msgid "Zeko Q&A — Badges"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:213
+msgid "Zeko Q&A — Bookmarks"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:174
+msgid "Zeko Q&A — Bounties"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:135
+msgid "Zeko Q&A — Comments"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:272
+msgid "Zeko Q&A — Notifications"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:235
+msgid "Zeko Q&A — Question follows"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:106
+msgid "Zeko Q&A — Questions"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:298
+msgid "Zeko Q&A — Reports"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:258
+msgid "Zeko Q&A — Reputation log"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:148
+msgid "Zeko Q&A — Revisions"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:246
+msgid "Zeko Q&A — Space memberships"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:161
+msgid "Zeko Q&A — Space posts"
+msgstr ""
+
+#: includes/privacy/class-zeko-qa-privacy.php:224
+msgid "Zeko Q&A — Topic follows"
+msgstr ""
+
+#: includes/admin/class-zeko-qa-admin.php:220
+#: includes/admin/class-zeko-qa-admin.php:221
+msgid "Zeko QA"
+msgstr ""
+
+#: templates/admin/demo-data.php:18
+msgid "Zeko QA Demo Data"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:85
+msgid "Zeko QA Profile"
+msgstr ""
+
+#: templates/admin/settings.php:23
+msgid "Zeko QA Settings"
+msgstr ""
+
+#: templates/admin/moderation.php:19
+msgid "Zeko QA — Moderation"
+msgstr ""
+
+#. translators: 1: site name, 2: question title
+#: includes/class-zeko-qa-emails.php:192
+#, php-format
+msgid "[%1$s] New answer on: %2$s"
+msgstr ""
+
+#. translators: 1: site name, 2: question title
+#: includes/class-zeko-qa-emails.php:253
+#, php-format
+msgid "[%1$s] Your answer was accepted: %2$s"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:246 templates/archive-questions.php:195
+#: templates/qa-dashboard.php:104 templates/qa-dashboard.php:124
+#: templates/single-question.php:156 templates/single-question.php:287
+#: templates/single-space.php:66 templates/single-tag.php:73
+#: templates/single-topic.php:87 templates/user-profile.php:92
+#: templates/user-profile.php:186 templates/user-profile.php:214
+msgid "ago"
+msgstr ""
+
+#: includes/class-zeko-qa-ecosystem.php:231 templates/archive-questions.php:200
+#: templates/qa-dashboard.php:81 templates/single-space.php:64
+#: templates/single-tag.php:78 templates/single-topic.php:92
+#: templates/user-profile.php:210
+msgid "answers"
+msgstr ""
+
+#: templates/ask-form.php:111
+msgid "characters"
+msgstr ""
+
+#: templates/ask-form.php:143
+msgid "e.g. WordPress, php, api (comma separated)"
+msgstr ""
+
+#: templates/archive-spaces.php:54 templates/single-space.php:39
+msgid "members"
+msgstr ""
+
+#: templates/archive-spaces.php:55
+msgid "posts"
+msgstr ""
+
+#: templates/qa-dashboard.php:101
+msgid "upvotes"
+msgstr ""
+
+#: templates/archive-questions.php:203 templates/single-question.php:119
+msgid "views"
+msgstr ""
+
+#: templates/single-space.php:62 templates/user-profile.php:168
+#: templates/user-profile.php:197
+msgid "votes"
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:314
+msgid "wpForo not detected."
+msgstr ""
+
+#: includes/migrator/class-zeko-migrate-wpforo.php:63
+msgid "wpForo → zeko-qa"
+msgstr ""
+
